@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "src/images/AboutUs.jpg";
+import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a student at UBT who is studying Computer Science and Information Technology. I am passionate about Programming on different projects that further my skills and perform their purpose to the fullest.";
+  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -33,7 +33,10 @@ const description =
 const skillsList = [
   "Web design",
   "User experience",
-  " Html, CSS, JavaScript, Laravel, C.",
+  "Inclusive design",
+  "Focus group testing",
+  "Mobile user interfaces",
+  "Graphic design",
 ];
 
 /**
@@ -42,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about working on interesting projects and expanding my skill and knowledge by working with other people, trying to get a website or product to its best form.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (

@@ -12,9 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
-  scroll-behavior: smooth;
 }
-
 
 div#main {
   display: flex;
@@ -124,8 +122,4 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
-}
-/* add a slide In Left animation */
-.slideInLeft {
-  animation: slideInLeft 0.5s forwards;
 }
